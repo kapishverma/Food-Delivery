@@ -1,0 +1,76 @@
+/* Utiloty classes */
+.h-primary {
+    font-size: 25px;
+}
+
+/* Navigatin */
+#navbar {
+    flex-direction: column;
+    position: relative;
+}
+#navbar ul {
+margin-bottom: 5px;
+}
+
+#navbar ul li {
+    padding: 0px;
+}
+
+#navbar ul li a {
+    font-size: 13px;
+    padding: 6px 8px;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+/* Home section */
+#home {
+    height: 307px;
+    padding: 0px 27px;
+}
+
+#home::before {
+    height: 419.5px;
+}
+
+#home p {
+    font-size: 12px;
+}
+
+/* Services section */
+
+#services {
+    flex-direction: column;
+    margin: 0px;
+}
+
+#services .box {
+    padding: 20px;
+    margin: 10px 5px;
+}
+
+/* Client Section */
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    width: 66px;
+    height: auto;
+}
+
+/* contact section  */
+#contact-box form {
+    width: 80%;
+}
+#contact-box {
+padding-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    font-size: 8px;
+}
